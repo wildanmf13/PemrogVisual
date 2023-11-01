@@ -1,0 +1,142 @@
+object Form1: TForm1
+  Left = 885
+  Height = 313
+  Top = 222
+  Width = 487
+  Caption = 'Faktorial'
+  ClientHeight = 313
+  ClientWidth = 487
+  Color = clActiveBorder
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 40
+    Height = 29
+    Top = 64
+    Width = 18
+    Caption = 'N'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Constantia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 104
+    Height = 29
+    Top = 68
+    Width = 168
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = Edit1Change
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 336
+    Height = 33
+    Top = 64
+    Width = 91
+    Caption = 'Hitung'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Constantia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 40
+    Height = 145
+    Top = 120
+    Width = 372
+    Caption = 'Hasil'
+    ClientHeight = 117
+    ClientWidth = 368
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Constantia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+    OnClick = GroupBox1Click
+    object Label2: TLabel
+      Left = 43
+      Height = 23
+      Top = 22
+      Width = 76
+      Caption = 'Faktorial '
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -19
+      Font.Name = 'Constantia'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Edit2: TEdit
+      Left = 128
+      Height = 33
+      Top = 24
+      Width = 136
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -19
+      Font.Name = 'Segoe UI Light'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Label3: TLabel
+      Left = 43
+      Height = 23
+      Top = 72
+      Width = 58
+      Caption = 'Jumlah'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -19
+      Font.Name = 'Constantia'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Edit3: TEdit
+      Left = 128
+      Height = 33
+      Top = 72
+      Width = 136
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -19
+      Font.Name = 'Segoe UI Light'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+  object Label4: TLabel
+    Left = 96
+    Height = 25
+    Top = 16
+    Width = 285
+    Caption = 'MENGHITUNG DERET N'
+    Color = clActiveBorder
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Imprint MT Shadow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+end
